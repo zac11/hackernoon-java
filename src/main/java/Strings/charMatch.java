@@ -14,26 +14,44 @@ public class charMatch {
      * @return
      */
     public static String selectUppercaseChars(String str1, String str2){
-        StringBuilder result = new StringBuilder();
+        //StringBuilder result = new StringBuilder();
+        StringBuilder newresult = new StringBuilder();
 
-        int minlength = Math.min(str1.length(), str2.length());
-
-        for(int i=0;i<minlength;i++){
+        int minlength = str1.length()+ str2.length();
+        int maxLength  = Math.max(str1.length(), str2.length());
+//
+        for(int i=0;i<maxLength;i++){
             char char1 = str1.charAt(i);
             char char2 = str2.charAt(i);
 
             if(Character.isUpperCase(char2)){
-                result.append(char1);
-            } else if (Character.isUpperCase(char1)) {
-                result.append(char2);
-                
+                newresult.append(char1);
+            }
+
+        }
+
+        for(int j=0;j<maxLength;j++){
+            char char1 = str1.charAt(j);
+            char char2 = str2.charAt(j);
+            if(Character.isUpperCase(char1)){
+                newresult.append(char2);
             }
         }
-        return  result.toString();
+
+//        for(int i=0;i<minlength;i++){
+//            char firstchar = str1.charAt(i);
+//            char secondChar = str2.charAt(i);
+//            if(Character.isUpperCase(secondChar)){
+//                    newresult.append(firstchar);
+//            } else if (Character.isUpperCase(secondChar)) {
+//                newresult.append(secondChar);
+//            }
+//        }
+        return  newresult.toString();
     }
 
     public static void main(String [] args){
-        String selectedChars = selectUppercaseChars("heLLo", "GUlp");
+        String selectedChars = selectUppercaseChars("“heLLo”", "“GUlp”");
         System.out.println(selectedChars);
     }
 }
