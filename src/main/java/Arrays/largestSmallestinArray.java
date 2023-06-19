@@ -4,7 +4,10 @@ import java.util.Arrays;
 
 public class largestSmallestinArray {
 
-    // find largest and smallest in an ursorted array
+    /**
+     * Given an arr, find the largest, second largest and smallest element from it
+     * @param arr
+     */
 
     public static void largestSmallest(int [] arr){
         Arrays.sort(arr);
@@ -25,10 +28,21 @@ public class largestSmallestinArray {
         System.out.println("Smallest element in array using second approach -----> "+min);
     }
 
+    public static void findSecondLargest(int [] arr){
+        int max = Arrays.stream(arr).max().getAsInt();
+        int secondMax = Arrays.stream(arr)
+                .filter(num -> num!=max)
+                .max()
+                .getAsInt();
+
+        System.out.println("Second biggest element:----> " + secondMax);
+    }
+
 
     public static void main(String [] args){
         int [] arr = {199,299,399,9999,7999,8999,99,69999,9999};
         largestSmallest(arr);
         largestSmallestApproach2(arr);
+        findSecondLargest(arr);
     }
 }
