@@ -5,7 +5,10 @@ import java.util.stream.Collectors;
 
 public class printAllVowels {
 
-    // given a string print all the vowels
+    /**
+     * Given a string print all the vowels in it
+     * @param str
+     */
 
     public static void printAllvowels(String str){
         String all_vowels = Pattern.compile("[aeiouAEIOU]")

@@ -5,6 +5,12 @@ import java.util.Set;
 
 public class findPairs {
 
+    /**
+     * Given an array find those pairs whose sum is equal to n
+     * @param arr
+     * @param sum
+     */
+
     public static void findPairs(int [] arr, int sum){
         Set<Integer> s = new HashSet<>();
 

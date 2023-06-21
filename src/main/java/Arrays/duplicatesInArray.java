@@ -5,7 +5,10 @@ import java.util.Set;
 
 public class duplicatesInArray {
 
-    // find duplicates in an array
+    /**
+     * Given an array, find the duplicate elements in the array
+     * @param arr
+     */
     public static void findDuplicates(int[] arr){
         Set<Integer> set = new HashSet<Integer>();
         for(int i=0;i<arr.length;i++){
