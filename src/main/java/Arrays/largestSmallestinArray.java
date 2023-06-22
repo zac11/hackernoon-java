@@ -38,11 +38,22 @@ public class largestSmallestinArray {
         System.out.println("Second biggest element:----> " + secondMax);
     }
 
+    public static void findSecondMinimum(int [] arr){
+        int min = Arrays.stream(arr).min().getAsInt();
+        int secondMinimum = Arrays.stream(arr)
+                .filter(num -> num!=min)
+                .min()
+                .getAsInt();
+
+        System.out.println("Second smallest element:----> " + secondMinimum);
+    }
+
 
     public static void main(String [] args){
         int [] arr = {199,299,399,9999,7999,8999,99,69999,9999};
         largestSmallest(arr);
         largestSmallestApproach2(arr);
         findSecondLargest(arr);
+        findSecondMinimum(arr);
     }
 }
