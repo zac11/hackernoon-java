@@ -23,6 +23,8 @@ Currently this as following folders -
 3. Others
 4. Sorting
 5. Strings
+6. Stacks
+7. Search
 
 The folder name should be a general indication of which programs go to which folders and this will keep changing as
 I add more programs to this repo.
