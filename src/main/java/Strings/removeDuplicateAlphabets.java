@@ -1,26 +1,31 @@
 package Strings;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Set;
 
 public class removeDuplicateAlphabets {
 
     // given a string, remove the duplicate characters and print the result
     public static String removeDuplicates(String str){
-        StringBuilder output = new StringBuilder();
-        HashSet<Character> has = new HashSet<>();
+        StringBuilder result = new StringBuilder();
+        Set<Character> seenChars = new HashSet<>();
 
-        for(char c : str.toCharArray()){
-            if(!has.contains(c)){
-                output.append(c);
-                has.add(c);
+        for (int i = 0; i < str.length(); i++) {
+            char currentChar = str.charAt(i);
+            if (!seenChars.contains(currentChar)) {
+                seenChars.add(currentChar);
+                result.append(currentChar);
             }
         }
 
-        return output.toString();
+        return result.toString();
     }
 
+
+
     public static void main(String [] args){
-        String input = "Remove the dupplicatess";
+        String input = "my name is rahul yadav";
         String result = removeDuplicates(input);
         System.out.println(result);
     }
