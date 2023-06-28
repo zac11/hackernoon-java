@@ -2,7 +2,11 @@ package Arrays;
 
 public class missing_integer {
 
-    //find single missing integer from a set of [1...100]
+    /**
+     * Given elements array from [1...100], find the missing number
+     * @param arr
+     * @return missingNumber
+     */
     public static int findMissingNumber(int [] arr){
         int xor_result = 0;
         for(int i=0;i<arr.length;i++){

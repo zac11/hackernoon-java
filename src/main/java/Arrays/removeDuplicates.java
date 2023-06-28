@@ -4,6 +4,11 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class removeDuplicates {
+
+    /**
+     * Given an array arr, remove the duplicates from arr
+     * @param arr
+     */
     public static void removeDuplicates(int [] arr){
         Set<Integer> st = new HashSet<Integer>();
         for(int i=0;i<arr.length;i++){

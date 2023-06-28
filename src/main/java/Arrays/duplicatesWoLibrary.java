@@ -3,6 +3,11 @@ package Arrays;
 import java.util.Arrays;
 
 public class duplicatesWoLibrary {
+    /**
+     * Given an array arr, find the duplicates without using any library function
+     * @param arr
+     * @return arr
+     */
     public static int[] removeDuplicates(int[] arr) {
         int[] uniqueArr = new int[arr.length];
         int uniqueIndex = 0;

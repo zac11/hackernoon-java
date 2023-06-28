@@ -1,7 +1,10 @@
 package Arrays;
 
 public class reverseArrayInPlace {
-
+    /**
+     * Given an array arr, reverse that array using in place methods
+     * @param arr
+     */
     public static void reverseArray(int[] arr) {
         int start = 0;
         int end = arr.length - 1;

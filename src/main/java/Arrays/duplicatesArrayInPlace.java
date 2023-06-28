@@ -4,6 +4,10 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class duplicatesArrayInPlace {
+    /**
+     * Given an array in place arr, find the duplicates
+     * @param arr
+     */
     public static void findDuplicates(int [] arr){
         Set<Integer> st = new HashSet<>();
         for(int i=0;i<arr.length;i++){
