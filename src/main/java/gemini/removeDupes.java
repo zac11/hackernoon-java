@@ -3,6 +3,10 @@ package gemini;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * This was asked in Gemini Solutions Round -1
+ * Given a string, remove all the characters that occur more than once
+ */
 public class removeDupes {
 
     public static String removeDupesWoMap(String str){
