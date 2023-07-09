@@ -1,7 +1,10 @@
 package telus;
 
 public class halfStarPattern {
-
+    /**
+     * This was asked in Telus International Round - 1 for SDET
+     * @param args
+     */
     public static void main(String [] args){
         int rows = 5;
         for(int i=1;i<=rows;i++){

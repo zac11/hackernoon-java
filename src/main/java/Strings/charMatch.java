@@ -9,6 +9,8 @@ public class charMatch {
      * is in uppercase. Return these as a single string using java
      *
      * e.g.,if string1 =“heLLo” and string2 = “GUlp”, Output would be “help”
+     *
+     * This was asked in Round 1 for Auto Zone Round -1
      * @param str1
      * @param str2
      * @return
