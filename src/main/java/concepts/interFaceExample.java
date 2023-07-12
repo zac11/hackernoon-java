@@ -4,6 +4,8 @@ package concepts;
 interface ShapeInterface{
     double calculateArea();
     double calculatePerimeter();
+
+    double pi = Math.PI;
 }
 
 class CircleExample implements ShapeInterface{

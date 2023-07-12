@@ -33,6 +33,21 @@ public class removeVowels {
 
     }
 
+    public static String removeVowels_Approach3(String input) {
+        StringBuilder sb = new StringBuilder();
+        for (char c : input.toCharArray()) {
+            if (!isVowel(c)) {
+                sb.append(c);
+            }
+        }
+        return sb.toString();
+    }
+
+    public static boolean isVowel(char c) {
+        c = Character.toLowerCase(c);
+        return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
+    }
+
     public static void main(String [] args){
         String str = "Use this string";
         String result = removeVowels_Approach1(str);
@@ -40,6 +55,9 @@ public class removeVowels {
 
         String newresult = removeVowels_Approach1(str);
         System.out.println(newresult);
+
+        String newresult2 = removeVowels_Approach3(str);
+        System.out.println(newresult2);
     }
 
 }
