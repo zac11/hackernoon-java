@@ -15,9 +15,9 @@ public class sumofElementsinArray {
     }
 
     public static void main(String [] args){
-        int [] arr = {5, 2, -8, 3, 1, 9, 7, 4};
+        int [] arr = {5, 2, 8, 3, 1, 9, 7, 4};
         int sum = sumofArray(arr);
 
-        System.out.println("Total is ---->"+sum);
+        System.out.println("Total is ----> "+sum);
     }
 }
