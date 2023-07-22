@@ -24,9 +24,9 @@ class ExtendedB extends BaseClass{
         System.out.println("Class B: " + y);
     }
 }
-public class problem9 {
-
-    BaseClass obj = new ExtendedB();
-    obj.display();
-}
-}
+//public class problem9 {
+//
+//    BaseClass obj = new ExtendedB();
+//    //obj.display();
+//    }
+//}
