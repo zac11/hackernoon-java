@@ -1,5 +1,8 @@
 package concepts;
 
+/**
+ * Give a practical example of what Abstract classes are. Asked in EPAM Systems
+ */
 abstract class Shape {
 
     protected String color;

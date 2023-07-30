@@ -1,5 +1,8 @@
 package concepts;
 
+/**
+ * Give an example of how interface can be implemented
+ */
 
 interface ShapeInterface{
     double calculateArea();

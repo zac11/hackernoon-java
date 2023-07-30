@@ -1,5 +1,8 @@
 package concepts;
 
+/**
+ *  Can you show the concept of abstract methods
+ */
 abstract class Animal{
     public abstract void makeSound();
 

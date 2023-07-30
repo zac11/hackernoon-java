@@ -2,7 +2,7 @@ package partech;
 
 public class longestPalindrome {
     /**
-     *
+     * Question was asked in Par Tech L2
      */
 
     static String findLongestPalindrome(String str){

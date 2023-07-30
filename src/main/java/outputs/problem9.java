@@ -23,6 +23,8 @@ class ExtendedB extends BaseClass{
     void disp() {
         System.out.println("Class B: " + y);
     }
+
+    // Uncomment the code  - this gives error in IDE but will not in a simple notepad
 }
 //public class problem9 {
 //
