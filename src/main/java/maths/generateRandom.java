@@ -1,4 +1,4 @@
-package Others;
+package maths;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;

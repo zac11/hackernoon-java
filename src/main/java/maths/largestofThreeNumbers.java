@@ -1,4 +1,4 @@
-package Others;
+package maths;
 
 public class largestofThreeNumbers {
     /**
