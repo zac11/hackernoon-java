@@ -28,6 +28,7 @@ public class findIndicesOfParticularSum {
     }
 
     public static void main(String [] args){
+
         int[] nums = {3, 2, 4};
         int targetSum = 6;
         int[] result = findSumIndices(nums, targetSum);
