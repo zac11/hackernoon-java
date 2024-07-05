@@ -32,7 +32,7 @@ public class subArraySum {
         subArraySum solution = new subArraySum();
         int[] nums1 = {1,2,1,3};
         int k1 = 4;
-        System.out.println(solution.subArray(nums1, k1)); // Output: 2
+        System.out.println(solution.subArray(nums1, k1));
 
         int[] nums2 = {1, 2, 3};
         int k2 = 3;
