@@ -7,7 +7,7 @@ public class longestPalindrome {
 
     static String findLongestPalindrome(String str){
 
-        if(str == null || str.length()==0){
+        if(str == null || str.isEmpty()){
             return "";
         }
 
@@ -54,7 +54,7 @@ public class longestPalindrome {
     }
 
     public static void main(String [] args){
-        String str = "aab";
+        String str = "cbb";
         System.out.println(findLongestPalindrome(str));
         System.out.println(findLongestSubstring(str));
     }
