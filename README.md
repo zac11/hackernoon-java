@@ -1,3 +1,5 @@
+
+
 # hackernoon-java
 50+ Java Interview Questions - Trying with best approach
 
@@ -17,7 +19,7 @@ of working with Java. It's an evergreen language.
 
 ## Folders
 
-Currently this as following folders -
+Currently this has the following folders -
 1. Arrays
 2. Hashmap
 3. Others
